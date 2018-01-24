@@ -52,4 +52,4 @@ RUN apt-get update && \
     \
     usermod -aG docker buildagent
 
-CMD ["service docker start"]
+CMD ["service", "docker", "start"]
