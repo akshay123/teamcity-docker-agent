@@ -52,4 +52,4 @@ RUN apt-get update && \
     \
     usermod -aG docker buildagent
 
-COPY run-docker.sh /services/run-docker.sh
+CMD ["service docker start"]
